@@ -5,11 +5,13 @@ A sleep calculator which calculates your bedtime or wakeup time depending on wha
 # Requirements
 * g++
 * make
+
 then run make
 # Windows
 # Requirements
 * [llvm-mingw](https://github.com/mstorsjo/llvm-mingw)
 * [make](https://raw.githubusercontent.com/winexe0/ActivationStatus/make/make.zip) 
+
 installed in your Path Environment Variable. 
 Then you can cd to ActivationStatus source directory and execute 
    ```
