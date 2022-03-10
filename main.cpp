@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 	int wakeuphour2;
 	int wakeupminutes;
 	cout << "This program is free software; you can redistribute it and/or modify\n"
-			"it under the terms of the GNU General Public License version 2 as published by\n"
+			"it under the terms of the GNU General Public License version 3 as published by\n"
 			"the Free Software Foundation.\n"
 			"\n"
 			"This program is distributed in the hope that it will be useful,\n"
