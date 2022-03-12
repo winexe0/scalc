@@ -133,7 +133,7 @@ int main(int argc, char **argv)
 			cin.ignore();
 		}
 	}
-	if (timetype == "Wakeuptime" || timetype == "wakeuptime") {
+	if (timetype == "Wakeuptime" || timetype == "wakeuptime" || timetype == "wakeup" || timetype == "Wakeup") {
 		cout << "What is your age? We do not support ages under 1. Answer in numbers." << endl;
 		cin >> age;
 		cout << "In what hour do you want to go to bed. Answer in format of ex. '9'" << endl;
