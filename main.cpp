@@ -103,6 +103,7 @@ int main(int argc, char **argv)
 		}
 		if (age <= 60 && age > 18) {
 			wakeuphour24hr = wakeuphour + 12;
+			bedtime = wakeuphour24hr - 7;
 			cout << "You should sleep by ";
 			cout << bedtime;
 			cout << ":";
@@ -113,6 +114,7 @@ int main(int argc, char **argv)
 		}
 		if (age <= 64 && age >= 61) {
 			wakeuphour24hr = wakeuphour + 12;
+			bedtime = wakeuphour24hr - 7;
 			cout << "You should sleep by ";
 			cout << bedtime;
 			cout << ":";
