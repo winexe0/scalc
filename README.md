@@ -4,32 +4,26 @@ A sleep calculator which calculates your bedtime or wakeup time depending on wha
 # Linux
 # Requirements
 * g++
-* make
-
-then run make
+* cmake
 # Windows
 # Requirements
-* [llvm-mingw](https://github.com/mstorsjo/llvm-mingw)
-* [make](https://raw.githubusercontent.com/winexe0/ActivationStatus/make/make.zip) 
+* C++ Compiler
+* [cmake](https://cmake.org/download/) 
 
 installed in your Path Environment Variable. 
-Then you can cd to ActivationStatus source directory and execute 
+Then you can cd to scalc source directory and execute 
    ```
-    make -f Makefile.mingw
+    cmake .
+    cmake --build .
    ```
-   which should give you a usable x86_64 binary.
-   If you want to build for x86_32 instead, execute
+   which should give you a usable binary for your architecture. If you want to build a different architcture for Linux for the aarch64 architecture then you can use 
    ```
-    make -f Makefile.mingw x86=y
+    cmake -D CMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ -S . 
+    cmake --build .
    ```
-   which should give you a usable x86_32 binary.
-   If you want to build for aarch64 instead, execute
+   If you want to build a different architecture for Windows, then instead for ARM64, use
    ```
-   make -f Makefile.mingw ARM64=y
+   cmake -A ARM64 -S .
+   cmake --build .
    ```
-   which should give you a usable aarch64 binary.
-    If you want to build for ARMv7 instead, execute 
-   ```
-     make -f Makefile.mingw ARM=y
-   ```
-   which should give you a usable ARMv7 binary.
+   In all cases this should leave a scalc or scalc.exe ready to use.
