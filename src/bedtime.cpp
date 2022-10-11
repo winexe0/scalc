@@ -4,15 +4,15 @@
 using namespace std;
 int bedtimefn() {
 	string timetype;
-	int age;
-	int wakeuphour;
-	int wakeuphour24hr;
-	int bedtime;
-	int bedtimehour;
-	int bedtimeminutes;
-	int bedtime24hr;
-	int wakeuphour2;
-	int wakeupminutes;
+	unsigned int age;
+	unsigned int wakeuphour;
+	unsigned int wakeuphour24hr;
+	unsigned int bedtime;
+	unsigned int bedtimehour;
+	unsigned int bedtimeminutes;
+	unsigned int bedtime24hr;
+	unsigned int wakeuphour2;
+	unsigned int wakeupminutes;
 	cout << "What is your age? We do not support ages under 1. Answer in numbers." << endl;
 	cin >> age;
 	cout << "In what hour do you want to wake up. Answer in format of ex. '9'" << endl;

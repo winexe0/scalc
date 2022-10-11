@@ -1,11 +1,11 @@
 #include <string>
 extern std::string timetype;
-extern int age;
-extern int wakeuphour;
-extern int wakeuphour24hr;
-extern int bedtime;
-extern int bedtimehour;
-extern int bedtimeminutes;
-extern int bedtime24hr;
-extern int wakeuphour2;
-extern int wakeupminutes;
+unsigned extern int age;
+unsigned extern int wakeuphour;
+unsigned extern int wakeuphour24hr;
+unsigned extern int bedtime;
+unsigned extern int bedtimehour;
+unsigned extern int bedtimeminutes;
+unsigned extern int bedtime24hr;
+unsigned extern int wakeuphour2;
+unsigned extern int wakeupminutes;
