@@ -61,6 +61,7 @@ int main(int argc, char **argv)
 				"along with this program; if not, write to the Free Software\n"
 				"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111 USA\n\n" << endl;
 			bedtimefn();
+			exit(0);
 		}
 		if (arg == "--wakeup") {
 			cout << "This program is free software; you can redistribute it and/or modify\n"
@@ -76,6 +77,7 @@ int main(int argc, char **argv)
 				"along with this program; if not, write to the Free Software\n"
 				"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111 USA\n\n" << endl;
 			wakeup();
+			exit(0);
 		}
 		else {
 			cout << VERSION << endl;
