@@ -1,5 +1,6 @@
 #include <string>
 extern std::string timetype;
+extern std::string period;
 unsigned extern int age;
 unsigned extern int wakeuphour;
 unsigned extern int wakeuphour24hr;
