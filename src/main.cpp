@@ -22,7 +22,7 @@
  */
 
 
-#define VERSION "Scalc v1.4.5"
+#define VERSION "Scalc v1.4.7"
 #define USAGE "\
 Usage: scalc [--bedtime] [--wakeup] [-h] [--help] [--version]\n\
 Options: --bedtime (Calculates the Bedtime) --wakeup (Calculates the Wakeup time) --help or -h (Prints this exact messaage) --version (Prints out the version of this Scalc binary)"
