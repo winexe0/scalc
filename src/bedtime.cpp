@@ -4,7 +4,6 @@
 using namespace std;
 int bedtimefn() {
 	string timetype;
-	string period;
 	unsigned int age;
 	unsigned int wakeuphour;
 	unsigned int wakeuphour24hr;
@@ -23,125 +22,77 @@ int bedtimefn() {
 	if (age <= 12 && age >= 6) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 9;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
 	if (age <= 5 && age >= 3) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 10;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
 	if (age == 1 || age == 2) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 11;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
 	if (age <= 18 && age >= 13) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 8;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
 	if (age <= 60 && age > 18) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 7;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
 	if (age <= 64 && age >= 61) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 7;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";		cin.get();
+		cout << " pm. Press ENTER to exit.";
+		cin.get();
 		cin.ignore();
 	}
 	if (age >= 65) {
 		wakeuphour24hr = wakeuphour + 12;
 		bedtime = wakeuphour24hr - 7;
-		if (bedtime > 12) {
-			bedtime = bedtime - 12;
-			period = "am.";
-		}
-		else {
-			period = "pm.";
-		}
 		cout << "You should sleep by ";
 		cout << bedtime;
 		cout << ":";
 		cout << wakeupminutes;
-		cout << " " + period + " Press ENTER to exit.";
+		cout << " pm. Press ENTER to exit.";
 		cin.get();
 		cin.ignore();
 	}
