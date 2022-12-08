@@ -5,4 +5,4 @@ cmake_minimum_required(VERSION 3.0)
 project(scalc)
 
 # Add all the source files needed to build the executable
-add_executable(scalc "src/main.cpp" "src/wakeup.cpp" "src/bedtime.cpp")
+add_executable(scalc "src/main.cpp" "src/wakeup.cpp" "src/bedtime.cpp" "src/notany.cpp" "src/notany.h")

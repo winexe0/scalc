@@ -32,6 +32,7 @@ Options: --bedtime (Calculates the Bedtime) --wakeup (Calculates the Wakeup time
 #include "bedtime.h"
 #include "wakeup.h"
 #include "vars.h"
+#include "notany.h"
 using namespace std;
 int main(int argc, char **argv)
 {
@@ -103,10 +104,14 @@ int main(int argc, char **argv)
 	cin >> timetype;
 	if (timetype == "Bedtime" || timetype == "bedtime") {
 		bedtimefn();
+		return 0;
 	}
 	if (timetype == "Wakeuptime" || timetype == "wakeuptime" || timetype == "wakeup" || timetype == "Wakeup") {
 		wakeup();
+		return 0;
+	}
+	else {
+		notany();
 	}
 	return 0;
 }
-
